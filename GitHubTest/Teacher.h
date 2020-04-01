@@ -10,3 +10,11 @@ public:
 	void show();
 	void do_something();	// Do somthing as you like, but you have to print something
 };
+
+void Teacher::do_something() {
+
+}
+
+void Teacher::show() {
+	
+}
