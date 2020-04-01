@@ -149,6 +149,8 @@
   <ItemGroup>
     <ClCompile Include="GitHubTest.cpp" />
     <ClCompile Include="Person.cpp" />
+    <ClCompile Include="Student.cpp" />
+    <ClCompile Include="Teacher.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Person.h" />
