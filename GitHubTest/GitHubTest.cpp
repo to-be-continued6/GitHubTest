@@ -2,10 +2,20 @@
 //
 
 #include <iostream>
+#include <string>
+#include "Student.h"
+#include "Teacher.h"
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    // std::cout << "Hello World!\n";
+    Student * s = new Student("S", 20, "s1000");
+    s->show();
+    s->do_something();
+
+    Teacher* t = new Teacher("T", 40, "t1000", "c1000");
+    s->show();
+    s->do_something();
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单
